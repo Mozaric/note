@@ -35,7 +35,7 @@
 	+ [IIf(Inline If)](#iifinline-if)
 	+ [If 運算子](#if-運算子)
 	+ [Select Case](#select-case)
-	+ [Microsoft.VisualBasic.Switch](#microsoft-visualbasic-switch)
+	+ [Microsoft.VisualBasic.Switch](#microsoftvisualbasicswitch)
 	+ [Choose](#choose)
 + [迴圈 (Loop)](#迴圈-loop)
 	+ [For Next](#for-next)
@@ -65,7 +65,7 @@
 	+ [Try Catch Finally](#try-catch-finally)
 	+ [自訂例外處理](#自訂例外處理)
 	+ [On Error](#on-error)
-		+ [On Error Goto <label>](#on-error-goto-label)
+		+ [On Error Goto label](#on-error-goto-label)
 		+ [On Error Resume Next](#on-error-resume-next)
 + [類別、模組與結構 (Class, Module and Structure)](#類別模組與結構-class-module-and-structure)
 	+ [類別 (Class)](#類別-class)
@@ -79,8 +79,8 @@
 	+ [ArrayList](#arraylist)
 	+ [Queue](#queue)
 + [型別系統的實值、參考型別 (Value Type and Reference Type)](#型別系統的實值參考型別-value-type-and-reference-type)
-	+ [實值型別(Value Type)](#實值型別-value-type)
-	+ [參考型別(Reference Type)](#參考型別-reference-type)
+	+ [實值型別 (Value Type)](#實值型別-value-type)
+	+ [參考型別 (Reference Type)](#參考型別-reference-type)
 + [Thread](#thread)
 	+ [Background Thread 與 Foreground Thread 的差異](#background-thread-與-foreground-thread-的差異)
 	+ [SyncLock](#synclock)
@@ -90,12 +90,12 @@
 + [其他](#其他)
 	+ [System.Math 類別](#systemmath-類別)
 	+ [亂數 (Random Number)](#亂數-random-number)
-	+ [DataAndTime](#dataandtime)
+	+ [DateAndTime](#dataandtime)
 	+ [檢查資料型別](#檢查資料型別)
 	+ [IsArray](#isarray)
 	+ [CurDir](#curdir)
 	+ [With ... End With](#with--end-with)
-	+ [非同步作業 (Asynchronous Programming Model)](#非同步作業-asynchronous-programing-model)
+	+ [非同步作業 (Asynchronous Programming Model)](#非同步作業-asynchronous-programming-model)
 	+ [Region](#region)
 	+ [Line Continuation](#line-continuation)
 	+ [Comments](#comments)
@@ -138,13 +138,13 @@
 		+ [MenuStrip](#menustrip)
 		+ [DataTable](#datatable)
 		+ [DataGridView](#datagridview)
-		+ [Font & ForeColor](#font-forecolor)
+		+ [Font & ForeColor](#font--forecolor)
 		+ [BeginUpdate](#beginupdate)
 		+ [設定按 Tab 時的跳的順序](#設定按-tab-時的跳的順序)
 	+ [控制項的事件](#控制項的事件)
-		+ [Event Handler 的參數列](#eventhandler-的參數列)
+		+ [Event Handler 的參數列](#event-handler-的參數列)
 		+ [共用事件處理程序](#共用事件處理程序)
-		+ [新增/移除事件處理程序](#新增-移除事件處理程序)
+		+ [新增/移除事件處理程序](#新增移除事件處理程序)
 		+ [滑鼠事件](#滑鼠事件)
 		+ [鍵盤事件](#鍵盤事件)
 		+ [Custom Event](#custom-event)
@@ -853,9 +853,9 @@ Throw 大多是程式內部會自己 Throw 例外出來，但我們也可以自�
 
 常用屬性： Err.Number (看錯誤代碼)、 Err.Description (看錯誤訊息)
 
-### On Error Goto <label>
+### On Error Goto label
 
-鍵入 On Error Goto <label> 來啟動錯誤偵測，當發生錯誤時，會跳到 <label> 那一行
+鍵入 On Error Goto label 來啟動錯誤偵測，當發生錯誤時，會跳到 label 那一行
 
 eg.
 ```vb
@@ -963,7 +963,7 @@ Queue 的元素型別為 Object ， Queue 是用先進先出的方式處理物�
 
 # 型別系統的實值、參考型別 (Value Type and Reference Type)
 
-## 實值型別(Value Type)
+## 實值型別 (Value Type)
 
 實值型別會將變數直接存放於記憶體的 Stack 區塊中，而資料大小是固定的。由於記憶體採用堆疊的方式儲存，所以變數會有生命週期，執行程序停止時，堆疊也會消失。
 
@@ -974,7 +974,7 @@ Dim y As Integer = 30
 y = x
 ```
 
-## 參考型別(Reference Type)
+## 參考型別 (Reference Type)
 
 宣告參考型別時，會使用記憶體 Stack 、 Managed Heap 區塊， Stack 的變數名稱紀錄著 Managed Heap 配置的記憶體位址，而變數值會存放於 Managed Heap 內，所以資料大小並非固定。
 
@@ -1130,7 +1130,7 @@ Rnd() 、 Randomize() 、 Int()
 [亂數](https://msdn.microsoft.com/zh-tw/library/f7s023d2(v=vs.90).aspx)
 [System.Random](https://msdn.microsoft.com/zh-tw/library/system.random(v=vs.110).aspx)
 
-## DataAndTime
+## DateAndTime
 
 DateAdd() 、 DateDiff()
 
