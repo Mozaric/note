@@ -32,7 +32,7 @@
 	+ [Like Operator](#like-operator)
 + [決策 (Decision Making)](#決策-decision-making)
 	+ [If Then Else](#if-then-else)
-	+ [IIf(Inline If)](#iif-inline-if)
+	+ [IIf(Inline If)](#iifinline-if)
 	+ [If 運算子](#if-運算子)
 	+ [Select Case](#select-case)
 	+ [Microsoft.VisualBasic.Switch](#microsoft-visualbasic-switch)
