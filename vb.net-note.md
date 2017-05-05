@@ -14,7 +14,7 @@
 	+ [靜態修飾子 (Static)](#靜態修飾子-static)
 	+ [常數 (Constant)](#常數-constant)
 	+ [列舉 (Enum)](#列舉-enum)
-	+ [日期 (Date)](#日期-data)
+	+ [日期 (Date)](#日期-date)
 	+ [字串 (String)](#字串-string)
 		+ [字串的分割 (Split)](#字串的分割-split)
 		+ [字串的結合 (Join)](#字串的結合-join)
