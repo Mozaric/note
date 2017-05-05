@@ -90,7 +90,7 @@
 + [其他](#其他)
 	+ [System.Math 類別](#systemmath-類別)
 	+ [亂數 (Random Number)](#亂數-random-number)
-	+ [DateAndTime](#dataandtime)
+	+ [DateAndTime](#dateandtime)
 	+ [檢查資料型別](#檢查資料型別)
 	+ [IsArray](#isarray)
 	+ [CurDir](#curdir)
