@@ -255,6 +255,7 @@ eg. `Dim d As Date = #11/25/2017 15:00 PM#`
 Dim <str-name> As String
 
 對VB來說，字串是不變的，當你給字串指定新值時，他其實是放棄原來字串，改為指向新字串。**字串是參考型別**。
+
 eg.
 ```vb
 Dim str As String = "NewYork"
