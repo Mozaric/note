@@ -1,5 +1,7 @@
-﻿[參考資料](http://wmnlab.ee.ntu.edu.tw/nmlab/exp1_socket.html "台灣大學 電機工程系 網路與多媒體實驗 - Socket Programming")
+[參考資料](http://wmnlab.ee.ntu.edu.tw/nmlab/exp1_socket.html "台灣大學 電機工程系 網路與多媒體實驗 - Socket Programming")
+
 [參考資料](https://zh.wikipedia.org/wiki/Berkeley%E5%A5%97%E6%8E%A5%E5%AD%97 "Berkeley通訊端")
+
 ↑↑↑想對 Socket 有基本了解可以點選上方網址↑↑↑，以下僅擷取部分重點。
 
 # Socket TCP/IP 簡介
