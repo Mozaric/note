@@ -52,24 +52,37 @@ Sockets 可分為下面兩類：
 詳細內容介紹請至 [Socket 類別](https://msdn.microsoft.com/zh-tw/library/system.net.sockets.socket(v=vs.110).aspx "System.Net.Sockets")
 
 `IPEndPoint` : End Point Class
+
 `Socket` : Socket Class
+
 `Bind()` : 用於 Server 端，使 Socket 與 End Point **建立關聯**
+
 `Listen()` : 用於 Server 端，**監聽**已關聯的 End Point
+
 `BeginAccept()` : 用於 Server 端，開啟一個 Thread 來**接受 Client 端 Socket 要求連線**
+
 `EndAccept()` : 用於 Server 端，關閉 BeginAccept() 所開啟的 Thread 並取得執行結果
+
 `BeginConnect()` : 用於 Client 端，開啟一個 Thread 來**向 Server 端發送連線請求**
+
 `EndConnect()` : 用於 Client 端，關閉 BeginConnect() 所開啟的 Thread 並取得執行結果
+
 `BeginReceive()` : 用於 Server/Client 端，開啟一個 Thread 來**傳送**資料
+
 `EndReceive()` : 用於 Server/Client 端，關閉 BeginReceive() 所開啟的 Thread 並取得執行結果
+
 `BeginSend()` : 用於 Server/Client 端，開啟一個 Thread 來**接收**資料
+
 `EndSend()` : 用於 Server/Client 端，關閉 BeginSend() 所開啟的 Thread 並取得執行結果
+
 `Connected As Boolean` : 取得 Socket 連線狀態
 
 ## 做做看
 
-請參考 MSDN 的範例來寫兩個程式，一個 Server 端，一個 Client 端，兩端可建立連線，並可互相傳送訊息。
+請參考 MSDN 的範例來寫兩個程式，一個 Server 端 Socket 程式，一個 Client 端 Socket 程式，兩程式可建立連線，並互相傳送訊息。
 
 [Server 端範例](https://msdn.microsoft.com/zh-tw/library/fx6588te(v=vs.110).aspx "非同步伺服器通訊端範例")
+
 [Client 端範例](https://msdn.microsoft.com/zh-tw/library/bew39x2a(v=vs.110).aspx "非同步用戶端通訊端範例")
 
 在看範例之前，建議你要先了解：
